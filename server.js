@@ -11,7 +11,7 @@ const resultsRoutes = require('./routes/resultsRoutes');
 
 const app = express(); 
 
-connectDB(); 
+connectDB(); //nachogay
 
 app.use(express.json());
 app.use(cors());
